@@ -423,6 +423,14 @@ border: none;
 	color: #fff;
 	font-family: FontAwesome;
 	text-align: center;
+	text-shadow: 1px 1px 2px #000;
+}
+.fa-cog:hover, .fa-binoculars:hover, .fa-microphone:hover {
+	transform: scale(1.15);
+	text-shadow: 0px 0px 5px #fff;
+}
+.shadowed{
+	text-shadow: 1px 1px 2px #000;
 }
 .Des  h4{
 	//margin-left: -19px;
@@ -452,6 +460,7 @@ border: none;
 	color: #fff;
 	font-family: FontAwesome;
 	text-align: center;
+	text-shadow: 1px 1px 2px #000;
 }
 .fa-microphone{
 	//margin-left: 20px;
@@ -462,6 +471,7 @@ border: none;
 	color: #fff;
 	font-family: FontAwesome;
 	text-align: center;
+	text-shadow: 1px 1px 2px #000;
 }
 /**/
 .wwa{
@@ -766,6 +776,14 @@ border: none;
 	}
 }
 .Ama h3{
+	font-size: 42px;
+	text-align:center;
+	color: #fff;
+	font-family: 'Roboto', 'sans-serif';
+	font-weight: 400;
+	margin-top: 17px;
+}
+.Fresh h3{
 	font-size: 42px;
 	text-align:center;
 	color: #fff;
